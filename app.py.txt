@@ -1,0 +1,8 @@
+import streamlit as st
+
+with open("Copy_of_earning_solution.html", "r", encoding="utf-8") as f:
+    html_content = f.read()
+
+st.components.v1.html(html_content, height=1000, scrolling=True)
+
+
